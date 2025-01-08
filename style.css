@@ -183,21 +183,68 @@ body {
     grid-template-rows: 1fr 1fr;
     background-color: var(--gray-background);
     grid-area: 2 / 2 / 2 / 2;
-    padding: 2%;
+    padding: 2.5%;
     gap: 2%;
 }
 
+.main-content-titles {
+    font-weight: bold;
+    font-size: 110%;
+}
+
 #projects-section {
-    background-color: rgb(40, 71, 71);
+    /* background-color: rgb(24, 73, 73); */
     grid-area: 1 / 1 / 3 / 1;
 }
 
+#six-boxes {
+    display: grid;
+    height: 90%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 1.8%;
+    gap: 4%;
+}
+
+.project-box {
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-left: 10px solid #fdcb43;
+    padding: 8%;
+    padding-left: 5%;
+}
+
+.project-box-title {
+    font-weight: 600;
+}
+
+.project-box-content {
+    font-size: 80%;
+    color: #424242;
+}
+
+.project-icons-section {
+    display: flex;
+    justify-self: center;
+    margin-right: -30%; /* this is a 'gambiarra', don't mention it */
+    width: 8%;
+    gap: 200%;
+}
+
+.project-links {
+    text-decoration: none;
+    display: inline-flex;
+}
+
 #announcements-section {
-    background-color: #6e6a42;
+    /* background-color: #6e6a42; */
     grid-area: 1 / 2 / 1 / 2;
 }
 
 #trending-section {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     grid-area: 2 / 2 / 2 / 2;
 }
