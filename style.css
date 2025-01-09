@@ -175,6 +175,11 @@ body {
     padding-bottom: 7.5px;
 }
 
+#blue-buttons:active {
+    background-color: white;
+    color: var(--color-blue);
+}
+
 /* main content section */
 
 #main-content {
