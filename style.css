@@ -253,6 +253,7 @@ body {
     font-size: 70%;
     padding: 10%;
     padding-bottom: 0%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .announce-title {
@@ -273,4 +274,39 @@ body {
 #trending-section {
     /* background-color: blueviolet; */
     grid-area: 2 / 2 / 2 / 2;
+}
+
+#trending-container {
+    display: grid;
+    border-radius: 10px;
+    height: 72%;
+    background-color: white;
+    margin-top: 5%;
+    font-size: 70%;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 0%;
+    padding-bottom: 5%;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.trending-user {
+    display: flex;
+    gap: 5%;
+}
+
+.trending-icon {
+    height: 40px;
+}
+
+.small-profile-icon {
+    display: flex;
+    height: 20%;
+}
+
+.trending-phrase {
+    margin-top: 2.5%;
+    color: #707070;
 }
